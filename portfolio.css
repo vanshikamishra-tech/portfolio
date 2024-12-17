@@ -1,0 +1,365 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+}
+.nav h1{
+    left: 5%;
+    color: white;
+    font-size: 40px;
+   position: relative;
+   top: 17%;
+   animation: animatecolor 2s ease-in 0s infinite normal;
+}
+@keyframes animatecolor{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: chocolate;
+    }
+    100%{
+        color: darkolivegreen;
+    }
+}
+.nav a{
+    margin: 15px;
+    position: relative;
+    left: 60%;
+    bottom: 25%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.nav a:hover{
+    color: coral;
+}
+.main-bottom{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+}
+.main-bottom-left{
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+}
+.img{
+    height: 450px;
+    width: 400px;
+    background-color: aqua;
+    background-image: url(./vanshika.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    top: 10%;
+}
+.main-bottom-right{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(15, 224, 68); */
+}
+.main-bottom-right h2{
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+.main-bottom-right h1{
+    font-size: 40px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+.main-bottom-right h1 b{
+    color: red;
+}
+.main-bottom-right p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+.main-bottom-right i{
+    background-color: red;
+    font-size: 40px;
+    left: 10%;
+    position: relative;
+    top: 25%;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+}
+.btn1{
+  right: 22%;
+    position: relative;
+    top: 35%;
+    background-color: rgb(218, 20, 20);
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  
+}
+.btn2{
+   right: 22%;
+    position: relative;
+    top: 35%;
+    background-color: rgb(197, 189, 186);
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.btn1:hover{
+    background-color: rgb(119, 102, 31);
+}
+.btn2:hover{
+    background-color: rgb(119, 102, 31);
+}
+/* .....page2..... */
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
+.page2-top{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+.page2-top1{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(78, 77, 77);
+    text-align: center;
+}
+.page2-top1 h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.page2-border{
+    height: 80%;
+    width: 100%;
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.page2-card1{
+    height: 90%;
+    width: 23%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+.card1-img1{
+    height: 90px;
+    width: 80px;
+    background-image: url(./logo.png);
+background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.page2-card1 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    opacity: 0.5;
+}
+    
+.page2-card2{
+    height: 90%;
+    width: 23%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+.card2-img2{
+    height: 90px;
+    width: 80px;
+    background-image: url(./css.jpg);
+background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.page2-card2 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    left: 34%;
+    top: 15%;
+    opacity: 0.5;
+    }
+.page2-card3{
+    height: 90%;
+    width: 23%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+.card3-img3{
+    height: 90px;
+    width: 80px;
+    background-image: url(./javascipt.jpg);
+background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.page2-card3 h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    position: relative;
+    /* left: 1%; */
+    top: 15%;
+    opacity: 0.5;
+    }
+.page2-card4{
+    height: 90%;
+    width: 23%;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+.card4-img4{
+    height: 90px;
+    width: 80px;
+    background-image: url(./java.webp);
+background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.page2-card4 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    opacity: 0.5;
+    }
+.page2-bottom{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(136, 255, 0); */
+    background-color: black;
+    border: 5px solid white;
+    display: flex;
+}
+.page2-bottom-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    border: 5px solid white;
+}
+.page2-bottom-left h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+   left: 1%;
+   top: 10%;
+   text-decoration: underline solid red;
+   
+}
+.page2-bottom-left p{
+    text-align: center;
+    color: rgb(243, 241, 241);
+    font-size: 20px;
+    font-weight:500;
+    position: relative;
+   left: 1%;
+   top: 10%;
+   margin: 15px;
+   
+}
+.page2-bottom-right{
+    height: 100%;
+    width: 50%;
+    border: 5px solid white;  
+}
+.page2-bottom-right h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+   left: 1%;
+   top: 9%;
+   text-decoration: underline solid red;
+   
+}
+.page2-bottom-right1{
+    height: 40px;
+    width: 100px;
+    /* background-color: aqua; */
+    position: relative;
+    left: 43%;
+    top: 12%;
+}
+.page2-bottom-right1 a{
+    text-align: center;
+    color: rgb(238, 232, 232);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+   left: 15px;
+   
+}
+.page2-bottom-right a:hover{
+    color: rgb(115, 115, 124);
+}
+.page2-bottom-right2{
+    height: 40px;
+    width: 100px;
+    /* background-color: aqua; */
+    position: relative;
+    left: 43%;
+    top: 12%;
+}
+.page2-bottom-right2 a{
+    text-align: center;
+    color: rgb(238, 232, 232);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 15px;
+   
+}
+
